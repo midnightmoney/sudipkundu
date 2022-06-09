@@ -8,6 +8,10 @@ module.exports = {
       fontFamily: {
         pacifico: ["Pacifico"],
       },
+      screens: {
+        "footer-wrap": "460px",
+      },
+      minHeight: { main: "80vh" },
     },
   },
   plugins: [],
