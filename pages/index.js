@@ -13,8 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="w-screen h-screen flex justify-center items-center bg-black text-white">
-        <div className="text-8xl text-center">Sudip Kundu</div>
+      <main className="w-screen h-screen flex justify-center items-center text-sky-200">
+        <div className="font-pacifico text-center text-6xl">sudip kundu</div>
       </main>
 
       <footer></footer>
