@@ -10,7 +10,7 @@ module.exports = {
         montserrat: ["Montserrat"],
       },
       screens: {
-        "500px": "500px",
+        "550px": "550px",
         "350px": "350px",
       },
       minHeight: { main: "calc(100vh - 10rem)" },

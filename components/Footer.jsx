@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="border-t px-1 pt-1 350px:p-4 font-normal text-lg flex flex-col flex-wrap justify-between items-center gap-x-1 500px:flex-row text-center">
+    <footer className="border-t px-1 pt-1 350px:p-4 font-normal text-lg flex flex-col flex-wrap justify-between items-center gap-x-1 550px:flex-row text-center">
       <div>
         © 2022, Built with
         <span className="font-medium text-cyan-600"> NextJs </span>
