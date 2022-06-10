@@ -17,7 +17,7 @@ export const Layout = ({ children }) => {
 
       <Header />
 
-      <main className="px-4 py-8 min-h-main">{children}</main>
+      <main className="font-montserrat px-4 py-8 min-h-main">{children}</main>
 
       <Footer />
     </div>

@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         pacifico: ["Pacifico"],
+        montserrat: ["Montserrat"],
       },
       screens: {
         "500px": "500px",
