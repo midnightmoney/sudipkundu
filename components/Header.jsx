@@ -11,34 +11,40 @@ const Header = () => {
       </Link>
       <nav>
         <ul className="flex gap-4 font-normal transition-all text-slate-700">
-          <li
-            className={`hover:text-cyan-600 ${
-              router.pathname == "/" &&
-              "text-slate-900 font-semibold underline underline-offset-4"
-            }`}
-          >
+          <li>
             <Link href="/">
-              <a>home</a>
+              <a
+                className={`hover:text-cyan-600 ${
+                  router.pathname == "/" &&
+                  "text-slate-900 font-semibold underline underline-offset-4"
+                }`}
+              >
+                home
+              </a>
             </Link>
           </li>
-          <li
-            className={`hover:text-cyan-600 ${
-              router.pathname == "/projects" &&
-              "text-slate-900 font-semibold underline underline-offset-4"
-            }`}
-          >
+          <li>
             <Link href="/projects">
-              <a>projects</a>
+              <a
+                className={`hover:text-cyan-600 ${
+                  router.pathname == "/projects" &&
+                  "text-slate-900 font-semibold underline underline-offset-4"
+                }`}
+              >
+                projects
+              </a>
             </Link>
           </li>
-          <li
-            className={`hover:text-cyan-600 ${
-              router.pathname == "/blogs" &&
-              "text-slate-900 font-semibold underline underline-offset-4"
-            }`}
-          >
+          <li>
             <Link href="/blogs">
-              <a>blogs</a>
+              <a
+                className={`hover:text-cyan-600 ${
+                  router.pathname == "/blogs" &&
+                  "text-slate-900 font-semibold underline underline-offset-4"
+                }`}
+              >
+                blogs
+              </a>
             </Link>
           </li>
         </ul>
