@@ -43,6 +43,15 @@ const Footer = () => {
               <i className="fa-brands fa-twitter" />
             </a>
           </li>
+          <li className="hover:text-cyan-600">
+            <a
+              href="https://drive.google.com/file/d/19U684S4_H6YP-MnA5EkdgVYFXTBKZU1p/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-solid fa-image-portrait" />
+            </a>
+          </li>
         </ul>
       </nav>
     </footer>
