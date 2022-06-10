@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="border-y p-4 font-normal text-lg flex flex-wrap justify-center items-center footer-wrap:justify-between ">
-      <div className="mr-2">
+    <footer className="border-t px-1 pt-1 350px:p-4 font-normal text-lg flex flex-col flex-wrap justify-between items-center gap-x-1 500px:flex-row text-center">
+      <div>
         © 2022, Built with
         <span className="font-medium text-cyan-600"> NextJs </span>
         and
@@ -27,6 +27,11 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-linkedin-in" />
+            </a>
+          </li>
+          <li className="hover:text-cyan-600">
+            <a href="mailto:sudipkundu999@gmail.com">
+              <i className="fa-solid fa-envelope" />
             </a>
           </li>
           <li className="hover:text-cyan-600">

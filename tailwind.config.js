@@ -9,9 +9,10 @@ module.exports = {
         pacifico: ["Pacifico"],
       },
       screens: {
-        "footer-wrap": "460px",
+        "500px": "500px",
+        "350px": "350px",
       },
-      minHeight: { main: "80vh" },
+      minHeight: { main: "calc(100vh - 10rem)" },
     },
   },
   plugins: [],

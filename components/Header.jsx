@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const Header = () => {
   const router = useRouter();
   return (
-    <header className="border-y py-4 px-4 font-medium text-lg flex flex-wrap justify-between items-center gap-4 md:py-6">
+    <header className="border-y p-4 font-medium text-lg flex flex-col 350px:flex-row flex-wrap justify-between items-center gap-x-2">
       <div className="font-pacifico text-2xl text-cyan-600">sudip kundu</div>
       <nav>
         <ul className="flex gap-4 font-normal transition-all text-slate-700">
