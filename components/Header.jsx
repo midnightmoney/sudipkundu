@@ -6,7 +6,9 @@ const Header = () => {
   const router = useRouter();
   return (
     <header className="border-y p-4 font-medium text-lg flex flex-col 350px:flex-row flex-wrap justify-between items-center gap-x-2">
-      <div className="font-pacifico text-2xl text-cyan-600">sudip kundu</div>
+      <Link href="/">
+        <a className="font-pacifico text-2xl text-cyan-600">sudip kundu</a>
+      </Link>
       <nav>
         <ul className="flex gap-4 font-normal transition-all text-slate-700">
           <li
