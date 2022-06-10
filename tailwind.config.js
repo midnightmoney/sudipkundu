@@ -13,7 +13,7 @@ module.exports = {
         "550px": "550px",
         "350px": "350px",
       },
-      minHeight: { main: "calc(100vh - 10rem)" },
+      minHeight: { main: "calc(100vh - 8.2rem)" },
     },
   },
   plugins: [],
