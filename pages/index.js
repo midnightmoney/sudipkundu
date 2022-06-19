@@ -1,17 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { Layout } from "../components/PageLayout";
-
-const skillsDB = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Redux",
-  "Firebase",
-  "NextJs",
-  "Tailwind",
-];
+import { skillsDB } from "../data/skills.data";
 
 export default function Home() {
   return (
@@ -46,7 +36,7 @@ export default function Home() {
             <div className="relative w-12 h-12">
               <Image
                 src={`/skills/${skill}.svg`}
-                alt="Sudip Kundu"
+                alt={skill}
                 layout="fill"
                 objectFit="cover"
               />
