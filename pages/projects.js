@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 import { Layout } from "../components/PageLayout";
 
@@ -144,6 +145,14 @@ const ProjectCard = ({ project }) => {
   const { name, description, tech, features, github, live } = project;
   return (
     <div className="flex flex-col border pt-3 px-5 rounded-xl">
+      <div className="relative w-full h-48 350px:h-64 550px:h-80 666px:h-96 mx-auto overflow-hidden">
+        <Image
+          src={`/projects/${name.toLowerCase()}.jpg`}
+          alt={name}
+          layout="fill"
+          objectFit="contain"
+        />
+      </div>
       <h2 className="text-cyan-600 font-bold text-xl 500px:text-lg">{name}</h2>
       <h3 className="text-sm mb-2">
         {tech.map((item, i) => (
