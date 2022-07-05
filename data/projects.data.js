@@ -91,6 +91,10 @@ export const projectsDB = [
     description: "CobraQuiz is a quiz app to test web dev knowledge",
     tech: [
       {
+        name: "Typescript",
+        isNew: true,
+      },
+      {
         name: "ReactJS",
         isNew: false,
       },
