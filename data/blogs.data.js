@@ -5,7 +5,7 @@ export const blogsDB = [
     readTime: "4 min read",
     teaser:
       "One of the reasons React is so popular is that it's blazing fast. This speed is achieved by updating only part of the real DOM that has changed. But, updating the real DOM is a slow process.So, how does React achieve this? React achieves this using virtual DOM.",
-    live: "https://sudipkundu.hashnode.dev/render-reconciliation-react",
+    live: "https://blog.sudipkundu.com/render-reconciliation-react",
   },
   {
     name: "Debouncing and Throttling",
@@ -13,7 +13,7 @@ export const blogsDB = [
     readTime: "4 min read",
     teaser:
       "Javascript is a single-threaded interpreted language with a non-blocking event loop. What this means is that everything runs on a single main thread so it's important to use the thread only when required.Blocking this main thread means subsequent operations have to wait till the main thread is clear, this may result in performance issues.",
-    live: "https://sudipkundu.hashnode.dev/debouncing-and-throttling",
+    live: "https://blog.sudipkundu.com/debouncing-and-throttling",
   },
   {
     name: "Event Propagation in JavaScript",
@@ -21,6 +21,6 @@ export const blogsDB = [
     readTime: "5 min read",
     teaser:
       "An event travels or propagates through the DOM tree, this is called Event propagation.This can happen in 2 ways - Top to bottom or Bottom to Top. We will discuss when to use what and how to optimize performance using these techniques.",
-    live: "https://sudipkundu.hashnode.dev/event-propagation-in-javascript",
+    live: "https://blog.sudipkundu.com/event-propagation-in-javascript",
   },
 ];
