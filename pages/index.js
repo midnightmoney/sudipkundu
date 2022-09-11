@@ -30,7 +30,7 @@ export default function Home() {
         neogCamp, since then I've been learning and building projects.
       </article>
       <h2 className="font-medium text-3xl text-center mt-10">My Skills</h2>
-      <div className="flex flex-wrap gap-8 justify-center items-center my-6">
+      <div className="flex flex-wrap gap-8 justify-center items-center my-6 max-w-lg mx-auto">
         {skillsDB.map((skill, i) => (
           <div key={i} className="flex flex-col items-center">
             <div className="relative w-12 h-12">

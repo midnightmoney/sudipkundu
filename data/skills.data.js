@@ -7,4 +7,7 @@ export const skillsDB = [
   "Firebase",
   "NextJs",
   "Tailwind",
+  "NodeJS",
+  "ExpressJS",
+  "MongoDB",
 ];

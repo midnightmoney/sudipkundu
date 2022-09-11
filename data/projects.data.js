@@ -4,20 +4,8 @@ export const projectsDB = [
     description: "CobraStore is an eCommerce app for book lovers",
     tech: [
       {
-        name: "ReactJS",
-        isNew: false,
-      },
-      {
-        name: "React Context API",
+        name: "React",
         isNew: true,
-      },
-      {
-        name: "React Router v6",
-        isNew: false,
-      },
-      {
-        name: "My own component library",
-        isNew: false,
       },
       {
         name: "Mock backend",
@@ -26,7 +14,7 @@ export const projectsDB = [
     ],
     features:
       "Sort & Filter, Wishlist, Cart, Address, Order management, Authentication, Payment Integration",
-    github: "https://github.com/sudipkundu999/CobraStore-React",
+    github: "https://github.com/sudipkundu999/CobraStore",
     live: "https://cobra-store.netlify.app/",
   },
   {
@@ -34,24 +22,12 @@ export const projectsDB = [
     description: "CobraTube is an video library app inspired by YouTube",
     tech: [
       {
-        name: "ReactJS",
-        isNew: false,
+        name: "MERN Stack",
+        isNew: true,
       },
       {
         name: "Redux Toolkit",
         isNew: true,
-      },
-      {
-        name: "React Router v6",
-        isNew: false,
-      },
-      {
-        name: "My own component library",
-        isNew: false,
-      },
-      {
-        name: "Mock backend",
-        isNew: false,
       },
     ],
     features:
@@ -69,10 +45,6 @@ export const projectsDB = [
         isNew: false,
       },
       {
-        name: "Vanilla CSS",
-        isNew: false,
-      },
-      {
         name: "OpenWeatherAPI",
         isNew: true,
       },
@@ -83,7 +55,7 @@ export const projectsDB = [
     ],
     features:
       "Shows the Time, Weather, Main focus, To-do list, new quote & background image on new tabs",
-    github: "https://github.com/sudipkundu999/cobra-chrome-extension",
+    github: "https://github.com/sudipkundu999/CobraTabs",
     live: "https://chrome.google.com/webstore/detail/cobra-tabs/jghgbgogbpnhgobhdlkdbkocahgllpll/",
   },
   {
@@ -91,24 +63,8 @@ export const projectsDB = [
     description: "CobraQuiz is a quiz app to test web dev knowledge",
     tech: [
       {
-        name: "Typescript",
+        name: "React Typescript",
         isNew: true,
-      },
-      {
-        name: "ReactJS",
-        isNew: false,
-      },
-      {
-        name: " React Context API",
-        isNew: false,
-      },
-      {
-        name: " React Router",
-        isNew: false,
-      },
-      {
-        name: " My own component library",
-        isNew: false,
       },
       {
         name: "Firebase",
