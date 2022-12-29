@@ -19,7 +19,7 @@ export default function Home() {
         <span className="text-slate-900"> Sudip Kundu</span>
         <span className="text-cyan-600"> A Web Developer </span>
       </div>
-      <article className="text-lg font-sans md:px-12 sm:px-8 px-2 text-center my-2">
+      <article className="text-lg font-sans md:px-20 sm:px-8 px-2 text-center my-2">
         I'm working as a UI Engineer @ Flipkart on the Partner network team.
         Currently we are revamping the pages & adding new product features. In
         my free time, I like to explore new technologies & building projects on

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="border-t px-1 pt-1 350px:p-4 font-normal text-lg flex flex-col flex-wrap justify-between items-center gap-x-1 550px:flex-row text-center">
       <div>
-        © 2022, Built with
+        © 2023 | Built with
         <span className="font-medium text-cyan-600"> NextJs </span>
         and
         <span className="font-medium text-cyan-600"> Tailwind </span>
@@ -49,7 +49,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-solid fa-image-portrait" />
+              <i className="fa-solid fa-file-lines" />
             </a>
           </li>
         </ul>
