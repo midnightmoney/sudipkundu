@@ -21,7 +21,7 @@ export const Layout = ({ children }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/ddvxuu7ml/image/upload/v1672326716/sudipkundu-og-image_brin0p.png"
+          content="https://res.cloudinary.com/ddvxuu7ml/image/upload/v1672327859/sudipkundu-og-image_bap4sr.png"
         />
         <link rel="canonical" href="https://www.sudipkundu.com" />
         <link rel="icon" href="/favicon.png" />
