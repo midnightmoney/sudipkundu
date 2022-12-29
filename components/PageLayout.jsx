@@ -10,8 +10,20 @@ export const Layout = ({ children }) => {
         <meta name="description" content="Sudip Kundu portfolio website" />
         <meta
           name="keywords"
-          content="Sudip Kundu, sudipkundu, portfolio website, web developer, frontend, html, css, javascript, react, react context, react router, redux toolkit, tailwind, firebase"
+          content="Sudip Kundu, sudipkundu, Sudip, Kundu,sudipkundu.com , sudip-kundu, sudip kundu, sudip, kundu"
         />
+        <meta property="og:title" content="Sudip Kundu" />
+        <meta
+          property="og:description"
+          content="Sudip Kundu portfolio website"
+        />
+        <meta property="og:URL" content="https://www.sudipkundu.com" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/ddvxuu7ml/image/upload/v1672326716/sudipkundu-og-image_brin0p.png"
+        />
+        <link rel="canonical" href="https://www.sudipkundu.com" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
