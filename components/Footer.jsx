@@ -17,6 +17,7 @@ const Footer = () => {
               href="https://github.com/sudipkundu999"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="github"
             >
               <i className="fa-brands fa-github" />
             </a>
@@ -26,12 +27,13 @@ const Footer = () => {
               href="https://www.linkedin.com/in/sudip-kundu/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="linkedin"
             >
               <i className="fa-brands fa-linkedin-in" />
             </a>
           </li>
           <li className="hover:text-cyan-600">
-            <a href="mailto:sudipkundu999@gmail.com">
+            <a href="mailto:sudipkundu999@gmail.com" aria-label="email">
               <i className="fa-solid fa-envelope" />
             </a>
           </li>
@@ -40,6 +42,7 @@ const Footer = () => {
               href="http://twitter.com/sudipkundu999"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="twitter"
             >
               <i className="fa-brands fa-twitter" />
             </a>
@@ -49,6 +52,7 @@ const Footer = () => {
               href="https://drive.google.com/file/d/19U684S4_H6YP-MnA5EkdgVYFXTBKZU1p/view"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="resume"
             >
               <i className="fa-solid fa-file-lines" />
             </a>
