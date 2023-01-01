@@ -1,7 +1,7 @@
 <div align="center">
 
-# Sudip Kundu
+# [Sudip Kundu](https://www.sudipkundu.com)
 
-## Portfolio Website using NextJS & Tailwind
+## Portfolio Website using NextJs & Tailwind
 
 </div>
