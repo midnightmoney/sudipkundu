@@ -14,7 +14,7 @@ const Header = () => {
           <li>
             <Link href="/">
               <a
-                className={`hover:text-cyan-600 ${
+                className={`hover:text-cyan-600 duration-300 ${
                   router.pathname == "/" &&
                   "text-slate-900 font-semibold underline underline-offset-4"
                 }`}
@@ -26,7 +26,7 @@ const Header = () => {
           <li>
             <Link href="/projects">
               <a
-                className={`hover:text-cyan-600 ${
+                className={`hover:text-cyan-600 duration-300 ${
                   router.pathname == "/projects" &&
                   "text-slate-900 font-semibold underline underline-offset-4"
                 }`}
@@ -38,7 +38,7 @@ const Header = () => {
           <li>
             <Link href="/blogs">
               <a
-                className={`hover:text-cyan-600 ${
+                className={`hover:text-cyan-600 duration-300 ${
                   router.pathname == "/blogs" &&
                   "text-slate-900 font-semibold underline underline-offset-4"
                 }`}

@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <nav>
         <ul className="text-2xl cursor-pointer flex gap-5 transition-all text-slate-600">
-          <li className="hover:text-cyan-600">
+          <li className="hover:text-cyan-600 duration-300">
             <a
               href="https://github.com/sudipkundu999"
               target="_blank"
@@ -22,7 +22,7 @@ const Footer = () => {
               <i className="fa-brands fa-github" />
             </a>
           </li>
-          <li className="hover:text-cyan-600">
+          <li className="hover:text-cyan-600 duration-300">
             <a
               href="https://www.linkedin.com/in/sudip-kundu/"
               target="_blank"
@@ -32,12 +32,12 @@ const Footer = () => {
               <i className="fa-brands fa-linkedin-in" />
             </a>
           </li>
-          <li className="hover:text-cyan-600">
+          <li className="hover:text-cyan-600 duration-300">
             <a href="mailto:sudipkundu999@gmail.com" aria-label="email">
               <i className="fa-solid fa-envelope" />
             </a>
           </li>
-          <li className="hover:text-cyan-600">
+          <li className="hover:text-cyan-600 duration-300">
             <a
               href="http://twitter.com/sudipkundu999"
               target="_blank"
@@ -47,7 +47,7 @@ const Footer = () => {
               <i className="fa-brands fa-twitter" />
             </a>
           </li>
-          <li className="hover:text-cyan-600">
+          <li className="hover:text-cyan-600 duration-300">
             <a
               href="https://drive.google.com/file/d/19U684S4_H6YP-MnA5EkdgVYFXTBKZU1p/view"
               target="_blank"

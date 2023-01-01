@@ -1,8 +1,10 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Header from "./Header";
 
 export const Layout = ({ children }) => {
+  const router = useRouter();
   return (
     <div className="w-full mx-auto max-w-4xl min-h-screen ">
       <Head>
@@ -23,7 +25,10 @@ export const Layout = ({ children }) => {
           property="og:image"
           content="https://res.cloudinary.com/ddvxuu7ml/image/upload/v1672327859/sudipkundu-og-image_bap4sr.png"
         />
-        <link rel="canonical" href="https://www.sudipkundu.com" />
+        <link
+          rel="canonical"
+          href={`https://www.sudipkundu.com` + router.pathname}
+        />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
