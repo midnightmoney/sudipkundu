@@ -5,6 +5,11 @@ import Header from './Header';
 
 export const Layout = ({ children }) => {
   const router = useRouter();
+  const currentDate = new Date();
+  const currentDay = currentDate.getDate();
+  const currentMonth = currentDate.getMonth() + 1;
+  const currentYear = currentDate.getFullYear();
+  const today = `${currentDay}-${currentMonth}-${currentYear}`;
   return (
     <div className='w-full mx-auto max-w-4xl min-h-screen '>
       <Head>
@@ -30,6 +35,7 @@ export const Layout = ({ children }) => {
           href={`https://www.sudipkundu.com` + router.pathname}
         />
         <link rel='icon' href='/favicon.png' />
+        <meta property='release-date' content={today} />
       </Head>
 
       <Header />
