@@ -36,6 +36,10 @@ export const Layout = ({ children }) => {
         />
         <link rel='icon' href='/favicon.png' />
         <meta property='release-date' content={today} />
+        <meta
+          name='google-site-verification'
+          content='7si0pehlEX2050lnPNTwvo74VLKQzOd1V4y511xwZmY'
+        />
       </Head>
 
       <Header />
