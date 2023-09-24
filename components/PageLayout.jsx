@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Footer from './Footer';
 import Header from './Header';
+import IMAGES from '../data/images.data';
 
 export const Layout = ({ children }) => {
   const router = useRouter();
@@ -26,15 +27,12 @@ export const Layout = ({ children }) => {
         />
         <meta property='og:URL' content='https://www.sudipkundu.com' />
         <meta property='og:type' content='website' />
-        <meta
-          property='og:image'
-          content='https://res.cloudinary.com/ddvxuu7ml/image/upload/v1672327859/sudipkundu-og-image_bap4sr.png'
-        />
+        <meta property='og:image' content={IMAGES.OG_IMAGE} />
         <link
           rel='canonical'
           href={`https://www.sudipkundu.com` + router.pathname}
         />
-        <link rel='icon' href='/favicon.png' />
+        <link rel='icon' href={IMAGES.FAVICON} />
         <meta property='release-date' content={today} />
         <meta
           name='google-site-verification'

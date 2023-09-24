@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import { skillsDB } from '../data/skills.data';
+import IMAGES from '../data/images.data';
 
 const Skill = ({ skill }) => {
   return (
     <div className='flex flex-col items-center'>
       <div className='relative w-12 h-12'>
-        <Image src={`/skills/${skill}.svg`} alt={skill} fill />
+        <Image src={IMAGES[skill]} alt={skill} fill />
       </div>
       <h3 className='text-sm'>{skill}</h3>
     </div>

@@ -2,12 +2,12 @@ import Image from 'next/image';
 import { PrimaryButton } from './index';
 
 export const BlogCard = ({ blog }) => {
-  const { blogID, name, date, readTime, teaser, live } = blog;
+  const { blogID, name, date, readTime, teaser, live, previewImage } = blog;
   return (
     <div className='flex flex-col border pt-3 px-5 rounded-xl'>
       <div className='relative w-full h-48 350px:h-64 550px:h-80 666px:h-80 mx-auto overflow-hidden 550px:mb-2'>
         <Image
-          src={`/blogs/blog${blogID}.webp`}
+          src={previewImage}
           alt={name}
           fill
           style={{

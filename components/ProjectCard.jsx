@@ -2,12 +2,12 @@ import Image from 'next/image';
 import { PrimaryButton, SecondaryButton } from './index';
 
 export const ProjectCard = ({ project }) => {
-  const { id, name, description, tech, features, github, live } = project;
+  const { id, name, description, tech, features, github, live, previewImage } = project;
   return (
     <div className='flex flex-col border pt-3 px-5 rounded-xl'>
       <div className='relative w-full h-48 350px:h-64 550px:h-80 666px:h-96 mx-auto overflow-hidden'>
         <Image
-          src={`/projects/${name.toLowerCase()}.jpg`}
+          src={previewImage}
           alt={name}
           fill
           style={{

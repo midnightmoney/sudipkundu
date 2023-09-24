@@ -17,6 +17,8 @@ export const projectsDB = [
       'Sort & Filter, Wishlist, Cart, Address, Order management, Authentication, Payment Integration',
     github: 'https://github.com/sudipkundu999/CobraStore',
     live: 'https://cobra-store.netlify.app/',
+    previewImage:
+      'https://res.cloudinary.com/ddvxuu7ml/image/upload/v1695576461/sudipkundu.com/projects/cobrastore_rfdyn3.jpg',
   },
   {
     id: 2,
@@ -36,6 +38,8 @@ export const projectsDB = [
       'Search, Like, History, Watch Later, Playlist management, Authentication, Infinite scroll',
     github: 'https://github.com/sudipkundu999/CobraTube',
     live: 'https://cobra-tube.netlify.app/',
+    previewImage:
+      'https://res.cloudinary.com/ddvxuu7ml/image/upload/v1695576461/sudipkundu.com/projects/cobratube_vbqtgn.jpg',
   },
   {
     id: 3,
@@ -60,6 +64,8 @@ export const projectsDB = [
       'Shows the Time, Weather, Main focus, To-do list, new quote & background image on new tabs',
     github: 'https://github.com/sudipkundu999/CobraTabs',
     live: 'https://chrome.google.com/webstore/detail/cobra-tabs/jghgbgogbpnhgobhdlkdbkocahgllpll/',
+    previewImage:
+      'https://res.cloudinary.com/ddvxuu7ml/image/upload/v1695576460/sudipkundu.com/projects/cobratabs_nngtqp.jpg',
   },
   {
     id: 4,
@@ -79,6 +85,8 @@ export const projectsDB = [
       'Search, Category based quizzes, User profile page, Authentication, Light & Dark Mode.',
     github: 'https://github.com/sudipkundu999/CobraQuiz',
     live: 'https://cobra-quiz.netlify.app/',
+    previewImage:
+      'https://res.cloudinary.com/ddvxuu7ml/image/upload/v1695576459/sudipkundu.com/projects/cobraquiz_yjkijl.jpg',
   },
   {
     id: 5,
@@ -98,5 +106,7 @@ export const projectsDB = [
       'Alerts, Avatars, Badge, Buttons, Cards, Modal, Inputs, Navigation, Rating, Toasts',
     github: 'https://github.com/sudipkundu999/CobraUI',
     live: 'https://cobra-ui.netlify.app/',
+    previewImage:
+      'https://res.cloudinary.com/ddvxuu7ml/image/upload/v1695576460/sudipkundu.com/projects/cobraui_kqamjs.jpg',
   },
 ];

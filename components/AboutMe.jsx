@@ -1,12 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
+import IMAGES from '../data/images.data';
 
 export const AboutMe = () => {
   return (
     <>
       <div className='relative w-60 h-60 mx-auto rounded-full overflow-hidden'>
         <Image
-          src='/sudipkundu.jpg'
+          src={IMAGES.HERO_IMAGE}
           alt='Sudip Kundu'
           fill
           style={{
